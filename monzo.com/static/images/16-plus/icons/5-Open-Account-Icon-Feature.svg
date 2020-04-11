@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>5-Open-Account-Icon-Feature</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="48" height="48" rx="6"></rect>
+        <filter x="-43.8%" y="-31.2%" width="187.5%" height="187.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.133333333   0 0 0 0 0.196078431   0 0 0 0 0.329411765  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="5-Open-Account-Icon-Feature" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/thumbs-up">
+            <g id="Rectangle-2">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#00A4DB" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group" stroke-width="1" fill-rule="evenodd" transform="translate(13.000000, 14.000000)" fill="#FFFFFF">
+                <path d="M22.5,9.4921875 C22.5,8.5078125 21.7265625,7.734375 20.7421875,7.734375 L15.46875,7.734375 C15.1875,7.734375 14.203125,7.3125 14.9765625,6.1171875 C15.46875,5.203125 15.46875,1.7578125 15.46875,1.7578125 C15.46875,0.7734375 14.6953125,0 13.7109375,0 C12.7265625,0 11.953125,0.7734375 11.953125,1.7578125 C11.953125,6.890625 7.03125,8.4375 7.03125,8.4375 L7.03125,17.578125 C9.28125,18.3515625 9.84375,19.6875 12.65625,19.6875 L17.9296875,19.6875 C18.9140625,19.6875 19.6875,18.9140625 19.6875,17.9296875 C19.6875,17.5078125 19.546875,17.15625 19.3359375,16.875 C19.3359375,16.875 19.3359375,16.875 19.3359375,16.875 C20.3203125,16.875 21.09375,16.1015625 21.09375,15.1171875 C21.09375,14.6953125 20.953125,14.2734375 20.671875,13.921875 C21.375,13.640625 21.796875,13.0078125 21.796875,12.3046875 C21.796875,11.8828125 21.65625,11.4609375 21.375,11.109375 C22.0078125,10.8984375 22.5,10.265625 22.5,9.4921875 Z" id="Shape" fill-rule="nonzero"></path>
+                <path d="M3.515625,7.03125 L2.8125,7.03125 L0,7.03125 L0,18.984375 L3.515625,18.984375 C4.7109375,18.984375 5.625,18 5.625,16.875 L5.625,9.140625 C5.625,7.9453125 4.7109375,7.03125 3.515625,7.03125 Z" id="Shape" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

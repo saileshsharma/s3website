@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/shield</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24.7754309,8.27559352 L24.5350286,6.80298594 L22.9106892,6.88358724 C21.8527028,6.88358724 16.6580653,6.72238464 14.3016902,2.79906177 L12.8387019,0.510638298 L11.2944965,2.87966307 C8.93812147,6.71802781 3.73915242,6.88358724 2.68658047,6.88358724 L1.06224105,6.80298594 L0.736290271,8.27559352 C0.656156192,8.68404607 0.00425463696,12.5213216 0.98210697,17.0992578 C1.95454484,21.5072776 4.63687067,27.5534645 12.1066662,30.8210849 L12.8387019,31.1489362 L13.5707375,30.8210849 C21.0405331,27.5534645 23.7228589,21.5072776 24.6151627,17.0949009 C25.5074665,12.5213216 24.8555649,8.68404607 24.7754309,8.27559352 L24.7754309,8.27559352 Z M18.684158,14.9720369 L11.8608495,21.8351289 L7.39391612,17.3421509 L9.6701571,15.0526382 L11.8608495,17.2571927 L16.6537337,12.4363635 L18.9299747,14.7247869 L18.684158,14.9720369 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons/shield" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill="#00A4DB" x="0" y="0" width="48" height="48" rx="6"></rect>
+        <g id="Group-6" transform="translate(11.000000, 8.000000)">
+            <g id="Rectangle" transform="translate(0.234043, 0.191489)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/chat</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons/chat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" fill="#00A4DB">
+            <rect id="Rectangle-2" x="0" y="0" width="48" height="48" rx="6"></rect>
+        </g>
+        <g id="chat" transform="translate(9.000000, 14.000000)" fill-rule="nonzero">
+            <g id="Group" fill="#FFFFFF">
+                <path d="M10.359,15.61425 C9.89325,15.68025 9.4155,15.714 8.92875,15.714 C7.1295,15.714 5.451,15.24525 4.0455,14.43675 L1.6935,15.37725 L0.276,15.94425 L0.75,14.493 L1.494,12.21225 C0.5505,10.968 0,9.4725 0,7.857 C0,3.4935 4.01775,0 8.92875,0 C11.60775,0 14.02125,1.04025 15.66075,2.69325 C11.76075,3.84825 8.92875,7.1325 8.92875,11.03925 C8.92875,12.71925 9.45225,14.28375 10.359,15.61425 Z" id="Shape"></path>
+                <path d="M28.3875,16.01025 L29.19,18.474 L29.7015,20.0415 L28.17075,19.42875 L25.63125,18.41325 C24.11325,19.28625 22.29975,19.79325 20.35725,19.79325 C15.054,19.79325 10.7145,16.01925 10.7145,11.307 C10.7145,6.59475 15.054,2.8215 20.35725,2.8215 C25.6605,2.8215 30,6.59475 30,11.307 C30,13.0515 29.40525,14.667 28.3875,16.01025 Z" id="Shape"></path>
+            </g>
+            <circle id="Oval" fill="#00A4DB" cx="16.125" cy="11.625" r="1.125"></circle>
+            <circle id="Oval" fill="#00A4DB" cx="20.625" cy="11.625" r="1.125"></circle>
+            <circle id="Oval" fill="#00A4DB" cx="25.125" cy="11.625" r="1.125"></circle>
+        </g>
+    </g>
+</svg>

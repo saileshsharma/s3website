@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/safe</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons/safe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill="#00A4DB" x="0" y="0" width="48" height="48" rx="6"></rect>
+        <g id="safe" transform="translate(16.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-Clipped">
+                <g id="Group">
+                    <g id="Shape">
+                        <path d="M4.25002015,5.57363148 C4.25002015,3.64974702 5.92894331,2.09013052 8,2.09013052 C10.0710567,2.09013052 11.7499799,3.64974702 11.7499799,5.57363148 L11.7499799,11.7539962 L14,11.7539962 L14,5.57363148 C14,2.49539981 11.3137085,1.88487328e-16 8,0 C4.6862915,-1.88487328e-16 2,2.49539981 2,5.57363148 L2,11.8906065 L4.25002015,11.8906065 L4.25002015,5.57363148 Z"></path>
+                        <path d="M15.1752603,10 L0.82473966,10 C0.369248523,10 0,10.313633 0,10.7005191 L0,22.2994809 C0,22.4852702 0.0868919647,22.6634499 0.241560654,22.7948227 C0.396229343,22.9261955 0.606005102,23 0.82473966,23 L15.1752603,23 C15.3939949,23 15.6037707,22.9261955 15.7584393,22.7948227 C15.913108,22.6634499 16,22.4852702 16,22.2994809 L16,10.7003042 C15.9998603,10.3135021 15.6306527,10 15.1752603,10 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

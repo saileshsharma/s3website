@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>1-Sign-Up-Feature</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="48" height="48" rx="6"></rect>
+        <filter x="-43.8%" y="-31.2%" width="187.5%" height="187.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.133333333   0 0 0 0 0.196078431   0 0 0 0 0.329411765  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M35.6654535,13.6167637 C35.289538,13.2386078 34.6832586,13.2386078 34.3069728,13.6182584 L21.0466006,26.9942163 L16.3593235,22.2665199 C15.9830377,21.8868693 15.3767583,21.8868693 15.0008428,22.2650253 L12.2809184,25.0092714 C11.906114,25.388922 11.906114,26.0017439 12.2823998,26.3813945 L20.0221847,34.1888943 C20.2999547,34.4691482 20.6603151,34.8387097 21.0291937,34.8387097 C21.3965909,34.8387097 21.7958391,34.4691482 22.0750906,34.1888943 L38.3868594,17.7327593 C38.7601823,17.3534823 38.7601823,16.7402868 38.3853779,16.3606362 L35.6654535,13.6167637 Z" id="path-3"></path>
+    </defs>
+    <g id="1-Sign-Up-Feature" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/approve">
+            <g id="Group">
+                <g id="Rectangle-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#00A4DB" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

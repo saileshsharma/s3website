@@ -1,0 +1,158 @@
+.hero {
+  padding-bottom: 72px; }
+  .hero__button {
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .hero__button {
+        width: auto; } }
+
+.feature-list {
+  list-style: none;
+  padding: 0; }
+  .feature-list li + li {
+    margin-top: 24px; }
+
+.logo-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .logo-row span {
+    flex: 1;
+    padding: 0 16px;
+    margin-top: 0; }
+
+blockquote {
+  padding: 0;
+  border-left: 0; }
+
+.section-tri-feature {
+  border-bottom: 1px solid #c3c8cf; }
+
+.section-large-padding {
+  padding-top: 64px;
+  padding-bottom: 64px; }
+  @media screen and (min-width: 768px) {
+    .section-large-padding {
+      padding-top: 128px;
+      padding-bottom: 128px; } }
+
+.press-box .c-blog-article__content {
+  background-image: none;
+  padding-right: 0;
+  margin-top: 32px; }
+
+/*********************
+  * WALLET ANIMATION *
+  ********************/
+.wallet-animation {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -80px;
+  padding-bottom: 40px;
+  margin-bottom: 48px;
+  pointer-events: none;
+  /* Prevents the images for being selectable/draggable */
+  height: 60vh;
+  min-height: 480px; }
+  @media screen and (min-width: 768px) {
+    .wallet-animation {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      height: auto;
+      min-height: unset; } }
+  .wallet-animation__confetti {
+    width: 100%;
+    position: absolute;
+    bottom: -80px; }
+  .wallet-animation__bill {
+    width: 150px;
+    height: 65px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 260px;
+    z-index: 1;
+    background: url("../../static/images/features/get-paid-early/hero-animation/bill.svg") no-repeat center/cover; }
+    @media screen and (min-width: 768px) {
+      .wallet-animation__bill {
+        position: relative;
+        top: 0;
+        width: 200px;
+        height: 88px;
+        margin-top: 0; } }
+  .wallet-animation__chevrons {
+    width: 24px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 48px;
+    margin-top: 0;
+    transform: translateX(-50%);
+    background-image: url("../../static/images/features/get-paid-early/hero-animation/chevron-down.svg");
+    background-repeat: no-repeat repeat;
+    background-position: center center;
+    animation: chevron-animation-mobile 500ms infinite linear; }
+    @media screen and (min-width: 768px) {
+      .wallet-animation__chevrons {
+        width: 100%;
+        height: 24px;
+        top: 50%;
+        margin-top: 0;
+        transform: translate(-50%, -50%);
+        background-image: url("../../static/images/features/get-paid-early/hero-animation/chevron-right.svg");
+        background-repeat: repeat no-repeat;
+        animation: chevron-animation-desktop 500ms infinite linear; } }
+    .wallet-animation__chevrons:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to top, #f7f7f7 0%, #f7f7f7 10%, rgba(255, 255, 255, 0.01) 50%, #f7f7f7 90%, #f7f7f7 100%); }
+      @media screen and (min-width: 768px) {
+        .wallet-animation__chevrons:after {
+          background-image: linear-gradient(to right, #f7f7f7 0%, #f7f7f7 10%, rgba(255, 255, 255, 0.01) 50%, #f7f7f7 90%, #f7f7f7 100%); } }
+  .wallet-animation__wallet {
+    width: 180px;
+    height: 106px;
+    position: relative; }
+    @media screen and (min-width: 768px) {
+      .wallet-animation__wallet {
+        margin-top: 0;
+        width: 176px;
+        height: 160px; } }
+    .wallet-animation__wallet__front, .wallet-animation__wallet__back {
+      width: 100%;
+      -webkit-transition: transform 300ms cubic-bezier(0.29, 1.67, 0.88, 0.79);
+      transition: transform 300ms cubic-bezier(0.29, 1.67, 0.88, 0.79);
+      transform-origin: right;
+      /* https://stackoverflow.com/q/16874546 */
+      -webkit-transform: translate3d(0, 0, 0);
+      margin-top: 0; }
+    .wallet-animation__wallet__back {
+      z-index: 0; }
+      .wallet-animation--close-wallet .wallet-animation__wallet__back {
+        transform: skew(0deg) rotate(6deg); }
+    .wallet-animation__wallet__front {
+      position: absolute;
+      top: 0;
+      right: -15px;
+      z-index: 4; }
+      .wallet-animation--close-wallet .wallet-animation__wallet__front {
+        transform: skew(9deg, -1deg) rotate(17deg) translate(-6px, 5px); }
+
+@keyframes chevron-animation-mobile {
+  from {
+    background-position: center 0; }
+  to {
+    background-position: center 32px; } }
+@keyframes chevron-animation-desktop {
+  from {
+    background-position: 0 center; }
+  to {
+    background-position: 32px center; } }

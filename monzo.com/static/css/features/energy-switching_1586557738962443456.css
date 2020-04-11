@@ -1,0 +1,59 @@
+.steps-list {
+    list-style: none;
+    counter-reset: three-step-counter;
+}
+
+.steps-list li {
+    display: flex;
+    counter-increment: three-step-counter
+}
+
+.steps-list li::before {
+    width: 0px;
+    content: counter(three-step-counter);
+    margin-right: 60px;
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    top: 9px;
+}
+
+.iphone-video-container {
+    position: relative;
+    width: 240px;
+}
+
+.iphone-x-frame {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: auto;
+}
+
+.energy-switching-video {
+    position: absolute;
+    width: 202px;
+    top: -19px;
+    right: 19px;
+    z-index: 1;
+    display: block;
+}
+
+.get-started-cta-2 {
+    margin-left: 76px;
+}
+
+@media screen and (max-width: 767px) {
+    .steps-list li::before {
+        top: -3px;
+        font-size: 25px;
+        margin-right: 35px;
+    }
+    
+    .iphone-video-container {
+        margin: 0 auto;
+    }
+    .get-started-cta-2 {
+        margin-left: 52px
+    }
+}

@@ -1,0 +1,148 @@
+.c-secondary-navigation__list {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.c-secondary-navigation__container {
+  margin: 0;
+  max-width: none;
+  display: block;
+}
+
+.c-secondary-navigation__item.selected > .c-secondary-navigation__link {
+  background-color: #2991CC;
+  color: #fff;
+}
+
+#expanded-feature {
+  margin: 0;
+}
+
+.expanded-feature-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#expanded-feature-close-icon {
+  align-self: flex-end;
+  width: 25px;
+}
+
+#expanded-feature-close-icon:hover {
+  cursor: pointer;
+}
+
+#expanded-feature .latest-update {
+  display: inline-flex;
+  padding: 20px;
+  font-size: 1rem;
+  background-color: #f7f7f7;
+}
+
+#expanded-feature .latest-update span {
+  font-weight: 600;
+}
+
+#expanded-feature .learn-more {
+  display: flex;
+  flex-direction: column;
+}
+
+#expanded-feature .learn-more .primary {
+  color: #fff;
+  background-color: #2991CC;
+}
+
+#feature-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+}
+
+.feature-card:hover {
+  cursor: pointer;
+}
+
+.feature-card .thumbnail {
+  display: block;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.is-featured .thumbnail::before {
+  content: "Featured";
+  text-transform: uppercase;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  margin: 0;
+  background-color: #707b8c;
+  padding: 5px 10px 2px 10px;
+  color: white;
+  border-radius: 4px;
+}
+
+.feature-card .feature-title {
+  padding: 20px;
+  margin: 0;
+}
+
+.feature-card .description {
+  margin: 16px;
+  flex-grow: 1;
+}
+
+.tweetsSection {
+  padding: 40px 16px 56px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (min-width: 624px) {
+  .tweetsSection {
+    max-width: 628px;
+  }
+}
+
+@media (min-width: 928px) {
+  .tweetsSection {
+    max-width: 928px;
+  }
+}
+
+.tweetsSection .grid {
+  width: 100%;
+  max-width: 288px;
+  margin: 0 auto;
+}
+
+@media (min-width: 624px) {
+  .tweetsSection .grid {
+    max-width: 596px;
+  }
+}
+
+@media (min-width: 928px) {
+  .tweetsSection .grid {
+    max-width: 896px;
+  }
+}
+
+.tweetsSection .grid-item {
+  width: 288px;
+  position: absolute;
+  float: left;
+}

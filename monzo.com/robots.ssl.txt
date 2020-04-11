@@ -1,0 +1,7 @@
+# robotstxt.org/
+
+User-agent: *
+Disallow: /docs/
+Disallow: /referral/
+Disallow: /-staging-referral/
+Disallow: /install/

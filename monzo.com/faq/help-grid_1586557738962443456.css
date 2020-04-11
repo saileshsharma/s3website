@@ -1,0 +1,64 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 672px) {
+    .grid {
+      max-width: 648px; } }
+  @media (min-width: 996px) {
+    .grid {
+      max-width: 972px; } }
+
+.gridBox, .expandedGridBox {
+  flex: 1 0 auto;
+  width: 100%;
+  height: 240px;
+  background-color: #F7F7F7;
+  border-radius: 5px;
+  margin-top: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer; }
+  .gridBox.active, .expandedGridBox.active {
+    background-color: #E9E9E9;
+    display: none; }
+  @media (min-width: 672px) {
+    .gridBox, .expandedGridBox {
+      flex: 0 0 auto;
+      width: 300px;
+      margin-left: 12px;
+      margin-right: 12px;
+      margin-top: 24px; }
+      .gridBox, .gridBox.active, .expandedGridBox, .expandedGridBox.active {
+        display: flex; }
+      .gridBox:nth-child(-n+2), .expandedGridBox:nth-child(-n+2) {
+        margin-top: 0px; } }
+  @media (min-width: 996px) {
+    .gridBox, .expandedGridBox {
+      margin-top: 24px; }
+      .gridBox:nth-child(-n+3), .expandedGridBox:nth-child(-n+3) {
+        margin-top: 0px; } }
+
+.gridBox .gridText .excerpt {
+  overflow: hidden;
+  max-height: 65px; }
+.gridBox .gridText > *:not(.excerpt) {
+  display: none; }
+
+.expandedGridBox {
+  background-color: #fff;
+  cursor: auto;
+  height: auto; }
+  .expandedGridBox .gridText > .excerpt {
+    display: none; }
+  @media (min-width: 672px) {
+    .expandedGridBox {
+      width: calc(100% - 24px); } }
+
+.c-contact-table {
+  overflow-x: auto; }
